@@ -558,8 +558,15 @@
                                     </ul>
                                 </nav>
                             </div>
+                            
                         </div>
                     </div>
+                    <div class="d-flex justify-content-center">
+                    <a class="btn btn-lg text-white icon-link icon-link-hover" href="./experience/experience.html"
+                                style="background-color: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+                                onclick="scrollToOptions('about')">Experience Details<img src="./images/box-arrow-up-right_logo.svg" width="22" height="22" class="bi"
+                                    alt="Experience" /></a>
+                                    </div>
                 </div>
     </section>
 
@@ -576,22 +583,22 @@
                             <img src="./images/customer-support.avif" class="card-img-top" alt="Contact Me" />
                         </div>
                         <div class="col-md-6 mx-auto col-lg-5">
-                            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary align-items-center    ">
+                            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary align-items-center">
                                 <div class="form-floating mb-3"> <input type="text" class="form-control custom-input"
-                                        id="nameInput" placeholder="Your Name" autocomplete="off">
+                                        id="nameInput" placeholder="Your Name" autocomplete="off" required>
                                     <label for="nameInput">Your Name</label>
                                 </div>
                                 <div class="form-floating mb-3"> <input type="email" class="form-control custom-input"
-                                        id="emialInput" placeholder="Email address" autocomplete="off"> <label
-                                        for="numberInput">Email address</label>
+                                        id="emialInput" placeholder="Email address" autocomplete="off" required> <label
+                                        for="numberInput" >Email address</label>
                                 </div>
                                 <div class="form-floating mb-3"> <input type="text" class="form-control custom-input"
-                                        id="numberInput" placeholder="Phone Number" autocomplete="off"> <label
+                                        id="numberInput" placeholder="Phone Number" autocomplete="off" min="1" max="10" required> <label
                                         for="numberInput">Phone Number</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <textarea class="form-control custom-input" placeholder="Leave a message here"
-                                        id="messageInput" autocomplete="off" style="height: 100px"></textarea>
+                                        id="messageInput" autocomplete="off" style="height: 100px" required></textarea>
                                     <label for="messageInput">Leave a message here</label>
                                 </div>
                                 <a class="btn btn-lg text-white icon-link icon-link-hover"
