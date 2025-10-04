@@ -4,13 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Vishwanath Nandakishore" />
+
+    <!-- Basic SEO -->
+    <title>Portfolio | Vishwanath Nandakishore</title>
+    <link rel="shortcut icon" href="./images/portfolio_favicon.png" type="image/x-icon">
     <meta name="description"
         content="Front-end developer skilled in HTML, CSS, Bootstrap & JavaScript, building fast, responsive, SEO-friendly websites." />
-    <link rel="shortcut icon" href="./images/portfolio_favicon.png" type="image/x-icon">
-    <title>Portfolio | Vishwanath Nandakishore</title>
+    <meta name="author" content="Vishwanath Nandakishore" />
+
+    <!-- Website Design -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Robots (Search Indexing) -->
+    <meta name="robots" content="index, follow">
+
 </head>
 
 <body>
@@ -44,372 +52,392 @@
         </nav>
     </header>
 
-
-    <main class="container-fluid p-lg-5 bg-light">
-        <div class="px-lg-5 py-3mb-4 rounded-3">
-            <div class="px-lg-4 py-lg-5 text-center">
-                <div class="row align-items-center g-lg-5">
-                    <div class="col-md-8 mx-auto col-lg-4">
-                        <img src="./images/nandakishore1.avif" class="img-fluid rounded-5 rounded" fetchpriority="high"
-                            loading='lazy' alt="Developer Image" />
-                    </div>
-                    <div class="col-md-7 text-center text-lg-start ">
-                        <div class="container-fluid py-5 text-start">
-                            <h1 class="display-5 fw-bold">Hi There,</h1>
-                            <h2 class="display-5 fw-bold">I'm <span style="color: #14A76C;" id="fullName"></span></h2>
-                            <p class="col-md-12 fs-5 text-secondary">
-                                passionate developer with expertise in web development and software
-                                engineering. Explore my projects, skills, and experiences below.
-                            </p>
-                            <button class="btn btn-lg text-white icon-link icon-link-hover" type="button"
-                                style="background-color: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-                                onclick="scrollToOptions('about')">About
-                                Me <img src="./images/box-arrow_about_me.svg" width="22" height="22" class="bi"
-                                    alt="Navigate About me" /></button>
-                            <ul class="nav flex-row py-3">
-                                <li class="ms-3">
-                                    <a href="https://github.com/Nandakishore695/" target="_blank"><img
-                                            src="./images/github_logo.svg" alt="Github Logo" srcset="" width="40"
-                                            height="35"></a>
-                                </li>
-                                <li class="ms-3">
-                                    <a href="https://www.linkedin.com/in/vishwanath-nandakishore/" target="_blank"><img
-                                            src="./images/linkedin_logo.svg" alt="Linkedin Logo" srcset="" width="35"
-                                            height="35"></a>
-                                </li>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-
-    <section id="about" class="container-fluid">
-        <div class="text-secondary px-2">
-            <div class="py-5">
-                <h2 class="display-5 fw-bold text-black text-center">About <span style="color: #14A76C;">Me</span></h2>
-                <div class="col-md-10 mx-auto">
+    <main>
+        <section class="container-fluid p-lg-5 bg-light">
+            <div class="px-lg-5 py-3mb-4 rounded-3">
+                <div class="px-lg-4 py-lg-5 text-center">
                     <div class="row align-items-center g-lg-5">
-                        <div class="col-md-6 text-center text-lg-start">
-                            <img src="./images/Hello.avif" class="card-img-top" alt="About Me" />
+                        <div class="col-md-8 mx-auto col-lg-4">
+                            <img src="./images/nandakishore1.avif" class="img-fluid rounded-5 rounded"
+                                fetchpriority="high" loading='lazy' alt="Developer Image" />
                         </div>
-                        <div class="col-md-6 mx-auto col-lg-6">
-                            <h3 class="text-black fw-semibold">I'm Nandakishore</h3>
-                            <p class="fw-bold fs-5 text-black">Full Stack Developer</p>
-                            <p class="fs-5 mb-4">I am a Full-Stack developer based in Hyderabad, India. I am Diploma in
-                                Electronic and
-                                Instrumentation. I am very passionate about improving my coding skills &
-                                developing applications & websites. I build Websites using MERN Stack.
-                                Working for myself to improve my skills. Love to build Full-Stack clones.</p>
-                            <p class="fs-5 mb-4"><span style="color: #14A76C;" class="fw-bold">Email :
-                                </span>nandakishore695@gmail.com
-                            </p>
-                            <p class="fs-5 mb-4"><span style="color: #14A76C;" class="fw-bold">Place : </span>Hyderabad,
-                                India - 500006
-                            </p>
-                            <form method="get" action="./Nandakishore_Resume.pdf" target="_blank">
-                                <button class="btn btn-lg text-white icon-link icon-link-hover" type="submit"
-                                    style="background-color: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);">Download
-                                    CV <img src="./images/download_fill_logo.svg" alt="Resume Download" width="22"
-                                        class="bi" height="22" /></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-    </section>
-
-
-    <section id="skills" class="container-fluid my-5">
-        <div class="py-lg-5 pt-5 container">
-            <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;">Skills</span></h2>
-            <div class="bd-example-snippet bd-code-snippet">
-                <div class="bd-example m-0 border-0 py-5 text-center">
-                    <nav class="d-flex justify-content-center py-3">
-                        <div class="nav nav-tabs mb-3 " id="nav-tab" role="tablist">
-                            <button class="nav-link skill-link active fw-bold px-lg-5" id="nav-home-tab"
-                                data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab"
-                                aria-controls="nav-home" aria-selected="true" tabindex="-1">FrontEnd</button>
-                            <button class="nav-link skill-link fw-bold px-lg-5" id="nav-profile-tab"
-                                data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab"
-                                aria-controls="nav-profile" aria-selected="false" tabindex="-1">BackEnd</button>
-                            <button class="nav-link skill-link fw-bold px-lg-5" id="nav-contact-tab"
-                                data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab"
-                                aria-controls="nav-contact" aria-selected="false">Tool</button>
-                        </div>
-                    </nav>
-                    <div class="tab-content py-5" id="nav-tabContent">
-                        <div class="tab-pane fade active show" id="nav-home" role="tabpanel"
-                            aria-labelledby="nav-home-tab">
-                            <div class="row row-cols-1 row-cols-sm-6 g-4">
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/react_logo.svg" alt="React Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">React JS</h3>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/javascript_logo.svg" alt="JavaScript Logo" width="40"
-                                            height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">JavaScript</h3>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/typescript_logo.svg" alt="TypeScript Logo" width="40"
-                                            height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">TypeScript</h3>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/html_logo.svg" alt="HTML Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">HTML</h3>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/css_logo.svg" alt="CSS Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">CSS</h3>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/bootstrap_logo.svg" alt="Bootstrap Logo" width="40"
-                                            height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">BootStrap</h3>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/redux_logo.svg" alt="Redux Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Redux</h3>
-                                    </p>
-                                </div>
-
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/ant_design_logo.svg" alt="Ant Design Logo" width="40"
-                                            height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Ant Design</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/tailwind_logo.svg" alt="Tailwind Logo" width="40"
-                                            height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Tailwind CSS</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/nextJS_logo.svg" alt="Next JS Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Next JS</h3>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                            <div class="row row-cols-1 row-cols-sm-6 g-4" id="idSkill">
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/expressjs_logo.svg" alt="Express Js Logo" width="40"
-                                            height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Express JS</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/MongoDB_logo.svg" alt="Next JS Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Mongo DB</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/wordpress_logo.svg" alt="Next JS Logo" width="40"
-                                            height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Wordpress</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/nodejs_logo.svg" alt="Next JS Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Node JS</h3>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                            <div class="row row-cols-1 row-cols-sm-6 g-4" id="idSkill">
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/git_logo.svg" alt="Git Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Git VCS</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/github_logo.svg" alt="GitHub Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">GitHub</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/figma_logo.svg" alt="Next JS Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Figma</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/postman_logo.svg" alt="Next JS Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Postman</h3>
-                                    </p>
-                                </div>
-                                <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
-                                    <div
-                                        class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
-                                        <img src="./images/canva_logo.svg" alt="Next JS Logo" width="40" height="40">
-                                    </div>
-                                    <h3 class="fw-semibold mb-0 text-body-emphasis">Canva</h3>
-                                    </p>
-                                </div>
+                        <div class="col-md-7 text-center text-lg-start ">
+                            <div class="container-fluid py-5 text-start">
+                                <h1 class="display-5 fw-bold">Hi There,</h1>
+                                <h2 class="display-5 fw-bold">I'm <span style="color: #14A76C;" id="fullName"></span>
+                                </h2>
+                                <p class="col-md-12 fs-5 text-secondary">
+                                    passionate developer with expertise in web development and software
+                                    engineering. Explore my projects, skills, and experiences below.
+                                </p>
+                                <button class="btn btn-lg text-white icon-link icon-link-hover" type="button"
+                                    style="background-color: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+                                    onclick="scrollToOptions('about')">About
+                                    Me <img src="./images/box-arrow_about_me.svg" width="22" height="22" class="bi"
+                                        alt="Navigate About me" /></button>
+                                <ul class="nav flex-row py-3">
+                                    <li class="ms-3">
+                                        <a href="https://github.com/Nandakishore695/" target="_blank"><img
+                                                src="./images/github_logo.svg" alt="Github Logo" srcset="" width="40"
+                                                height="35"></a>
+                                    </li>
+                                    <li class="ms-3">
+                                        <a href="https://www.linkedin.com/in/vishwanath-nandakishore/"
+                                            target="_blank"><img src="./images/linkedin_logo.svg" alt="Linkedin Logo"
+                                                srcset="" width="35" height="35"></a>
+                                    </li>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <section id="projects">
-        <div class="text-secondary px-4 ">
-            <div class="py-lg-5 py-5  container ">
-                <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;">Projects</span> Made
-                </h2>
-                <div class="col-md-8 mx-auto">
-                    <p class="fs-5 mb-4 text-center">Welcome to my web development portfolio! Explore a collection of
-                        projects showcasing <br>
-                        my expertise in front-end development.</p>
+        <section id="about" class="container-fluid">
+            <div class="text-secondary px-2">
+                <div class="py-5">
+                    <h2 class="display-5 fw-bold text-black text-center">About <span style="color: #14A76C;">Me</span>
+                    </h2>
+                    <div class="col-md-10 mx-auto">
+                        <div class="row align-items-center g-lg-5">
+                            <div class="col-md-6 text-center text-lg-start">
+                                <img src="./images/Hello.avif" class="card-img-top" alt="About Me" />
+                            </div>
+                            <div class="col-md-6 mx-auto col-lg-6">
+                                <h3 class="text-black fw-semibold">I'm Nandakishore</h3>
+                                <p class="fw-bold fs-5 text-black">Full Stack Developer</p>
+                                <p class="fs-5 mb-4">I am a Full-Stack developer based in Hyderabad, India. I am Diploma
+                                    in
+                                    Electronic and
+                                    Instrumentation. I am very passionate about improving my coding skills &
+                                    developing applications & websites. I build Websites using MERN Stack.
+                                    Working for myself to improve my skills. Love to build Full-Stack clones.</p>
+                                <p class="fs-5 mb-4"><span style="color: #14A76C;" class="fw-bold">Email :
+                                    </span>nandakishore695@gmail.com
+                                </p>
+                                <p class="fs-5 mb-4"><span style="color: #14A76C;" class="fw-bold">Place :
+                                    </span>Hyderabad,
+                                    India - 500006
+                                </p>
+                                <form method="get" action="./Nandakishore_Resume.pdf" target="_blank">
+                                    <button class="btn btn-lg text-white icon-link icon-link-hover" type="submit"
+                                        style="background-color: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);">Download
+                                        CV <img src="./images/download_fill_logo.svg" alt="Resume Download" width="22"
+                                            class="bi" height="22" /></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-lg-5 ">
+        </section>
+
+
+        <section id="skills" class="container-fluid my-5">
+            <div class="py-lg-5 pt-5 container">
+                <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;">Skills</span></h2>
+                <div class="bd-example-snippet bd-code-snippet">
+                    <div class="bd-example m-0 border-0 py-5 text-center">
+                        <nav class="d-flex justify-content-center py-3">
+                            <div class="nav nav-tabs mb-3 " id="nav-tab" role="tablist">
+                                <button class="nav-link skill-link active fw-bold px-lg-5" id="nav-home-tab"
+                                    data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab"
+                                    aria-controls="nav-home" aria-selected="true" tabindex="-1">FrontEnd</button>
+                                <button class="nav-link skill-link fw-bold px-lg-5" id="nav-profile-tab"
+                                    data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab"
+                                    aria-controls="nav-profile" aria-selected="false" tabindex="-1">BackEnd</button>
+                                <button class="nav-link skill-link fw-bold px-lg-5" id="nav-contact-tab"
+                                    data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab"
+                                    aria-controls="nav-contact" aria-selected="false">Tool</button>
+                            </div>
+                        </nav>
+                        <div class="tab-content py-5" id="nav-tabContent">
+                            <div class="tab-pane fade active show" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
+                                <div class="row row-cols-1 row-cols-sm-6 g-4">
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/react_logo.svg" alt="React Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">React JS</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/javascript_logo.svg" alt="JavaScript Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">JavaScript</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/typescript_logo.svg" alt="TypeScript Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">TypeScript</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/html_logo.svg" alt="HTML Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">HTML</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/css_logo.svg" alt="CSS Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">CSS</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/bootstrap_logo.svg" alt="Bootstrap Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">BootStrap</h3>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/redux_logo.svg" alt="Redux Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Redux</h3>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/ant_design_logo.svg" alt="Ant Design Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Ant Design</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/tailwind_logo.svg" alt="Tailwind Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Tailwind CSS</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/nextJS_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Next JS</h3>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
+                                <div class="row row-cols-1 row-cols-sm-6 g-4" id="idSkill">
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/expressjs_logo.svg" alt="Express Js Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Express JS</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/MongoDB_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Mongo DB</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/wordpress_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Wordpress</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/nodejs_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Node JS</h3>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                aria-labelledby="nav-contact-tab">
+                                <div class="row row-cols-1 row-cols-sm-6 g-4" id="idSkill">
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/git_logo.svg" alt="Git Logo" width="40" height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Git VCS</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/github_logo.svg" alt="GitHub Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">GitHub</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/figma_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Figma</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/postman_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Postman</h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2 col-6 d-flex flex-column gap-2 align-items-center">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-gradient fs-4 rounded-3">
+                                            <img src="./images/canva_logo.svg" alt="Next JS Logo" width="40"
+                                                height="40">
+                                        </div>
+                                        <h3 class="fw-semibold mb-0 text-body-emphasis">Canva</h3>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects">
+            <div class="text-secondary px-4 ">
+                <div class="py-lg-5 py-5  container ">
+                    <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;">Projects</span>
+                        Made
+                    </h2>
+                    <div class="col-md-8 mx-auto">
+                        <p class="fs-5 mb-4 text-center">Welcome to my web development portfolio! Explore a collection
+                            of
+                            projects showcasing <br>
+                            my expertise in front-end development.</p>
+                    </div>
+                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-lg-5 ">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg aria-label="Javascript Projects: Thumbnail" height="225"
+                                    preserveAspectRatio="xMidYMid slice" role="img" width="100%" class="rounded-top"
+                                    style="background-image: url('./images/javascriptproject.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;">
+                                    <title>Javascript Projects</title>
+                                </svg>
+                                <div class="card-body">
+                                    <h3 class="fw-bold">Javascript Projects</h3>
+                                    <p class="card-text text-secondary">To Showcasing all my major JavaScript projects
+                                        built
+                                        to demonstrate core concepts and practical web applications.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group"> <a
+                                                href="https://nandakishore695.github.io/portfolio_javascript_yellow_black/"
+                                                target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">View
+                                                <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo"
+                                                    width="22" height="22" class="bi" /></a> <a
+                                                href="https://github.com/Nandakishore695/portfolio_javascript_yellow_black"
+                                                target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Code
+                                                <img src="./images/code-slash.svg" alt="Code Logo" width="22" class="bi"
+                                                    height="22" /></a> </div>
+                                        <small class="badge text-bg-dark rounded-pill">Live</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg aria-label="React JS: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
+                                    role="img" width="100%" class="rounded-top"
+                                    style="background-image: url('./images/react-js.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
+                            <title>React JS</title>
+                        </svg>
+                        <div class=" card-body">
+                                    <h3 class="fw-bold">React JS</h3>
+                                    <p class="card-text text-secondary">A collection of my React JS projects, built to
+                                        showcase interactive UIs and efficient component-driven development.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group"> <a href="/" target="_blank" type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">View
+                                                <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo"
+                                                    width="22" height="22" class="bi" /></a> <a href="/" target="_blank"
+                                                type="button"
+                                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Code
+                                                <img src="./images/code-slash.svg" alt="Code Logo" width="22" class="bi"
+                                                    height="22" /></a> </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg aria-label="Javascript Projects: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
+                            <svg aria-label="Next JS: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
                                 role="img" width="100%" class="rounded-top"
-                                style="background-image: url('./images/javascriptproject.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;">
-                                <title>Javascript Projects</title>
-                            </svg>
-                            <div class="card-body">
-                                <h3 class="fw-bold">Javascript Projects</h3>
-                                <p class="card-text text-secondary">To Showcasing all my major JavaScript projects built
-                                    to demonstrate core concepts and practical web applications.</p>
+                                style="background-image: url('./images/nextjsprojects.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
+                            <title>Next JS</title>
+                        </svg>
+                        <div class=" card-body">
+                                <h3 class="fw-bold">Next JS</h3>
+                                <p class="card-text text-secondary">basic project created to explore essential features
+                                    like
+                                    page routing, components & rendering. This project reflects my learning journey in
+                                    modern web development.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group"> <a
-                                            href="https://nandakishore695.github.io/portfolio_javascript_yellow_black/"
+                                            href="https://nandakishore695.github.io/next_js_portfolio_project_blue_white/"
                                             target="_blank" type="button"
                                             class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
                                             style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">View
                                             <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22"
                                                 height="22" class="bi" /></a> <a
-                                            href="https://github.com/Nandakishore695/portfolio_javascript_yellow_black"
+                                            href="https://github.com/Nandakishore695/next_js_portfolio_project_blue_white"
                                             target="_blank" type="button"
                                             class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
                                             style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Code
-                                            <img src="./images/code-slash.svg" alt="Code Logo" width="22" class="bi"
-                                                height="22" /></a> </div>
+                                            <img src="./images/code-slash.svg" alt="Code Logo" width="22" height="22"
+                                                class="bi" /></a>
+                                    </div>
                                     <small class="badge text-bg-dark rounded-pill">Live</small>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg aria-label="React JS: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
-                                role="img" width="100%" class="rounded-top"
-                                style="background-image: url('./images/react-js.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
-                            <title>React JS</title>
-                        </svg>
-                        <div class=" card-body">
-                                <h3 class="fw-bold">React JS</h3>
-                                <p class="card-text text-secondary">A collection of my React JS projects, built to
-                                    showcase interactive UIs and efficient component-driven development.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group"> <a href="/" target="_blank" type="button"
-                                            class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
-                                            style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">View
-                                            <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22"
-                                                height="22" class="bi" /></a> <a href="/" target="_blank" type="button"
-                                            class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
-                                            style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Code
-                                            <img src="./images/code-slash.svg" alt="Code Logo" width="22" class="bi"
-                                                height="22" /></a> </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg aria-label="Next JS: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
-                            role="img" width="100%" class="rounded-top"
-                            style="background-image: url('./images/nextjsprojects.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
-                            <title>Next JS</title>
-                        </svg>
-                        <div class="card-body">
-                            <h3 class="fw-bold">Next JS</h3>
-                            <p class="card-text text-secondary">basic project created to explore essential features like
-                                page routing, components & rendering. This project reflects my learning journey in
-                                modern web development.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group"> <a href="https://nandakishore695.github.io/next_js_portfolio_project_blue_white/"
-                                        target="_blank" type="button"
-                                        class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
-                                        style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">View
-                                        <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22"
-                                            height="22" class="bi" /></a> <a
-                                        href="https://github.com/Nandakishore695/next_js_portfolio_project_blue_white" target="_blank"
-                                        type="button" class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
-                                        style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Code
-                                        <img src="./images/code-slash.svg" alt="Code Logo" width="22" height="22"
-                                            class="bi" /></a>
-                                </div>
-                                <small class="badge text-bg-dark rounded-pill">Live</small>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -441,8 +469,8 @@
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                    <svg aria-label="Blog MERN: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice"
-                        role="img" width="100%" class="rounded-top"
+                    <svg aria-label="Blog MERN: Thumbnail" height="225" preserveAspectRatio="xMidYMid slice" role="img"
+                        width="100%" class="rounded-top"
                         style="background-image: url('./images/MERN_Stack.webp');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
                             <title>Blog MERN</title>
                         </svg>
@@ -464,271 +492,303 @@
                         </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card shadow-sm"> <svg aria-label="Hivespace Website: Thumbnail" height="225"
-                    preserveAspectRatio="xMidYMid slice" role="img" width="100%" class="rounded-top"
-                    style="background-image: url('./images/hivespace_website.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
+            </div>
+            <div class="col">
+                <div class="card shadow-sm"> <svg aria-label="Hivespace Website: Thumbnail" height="225"
+                        preserveAspectRatio="xMidYMid slice" role="img" width="100%" class="rounded-top"
+                        style="background-image: url('./images/hivespace_website.avif');background-size: 100%;background-position: center; background-repeat: no-repeat;"">
                             <title>Hivespace Website</title>
                         </svg>
                         <div class=" card-body">
-                    <h3 class="fw-bold">Hivespace Website</h3>
-                    <p class="card-text text-secondary">This project is a Bootstrap-based replica of a co-working space
-                        website, demonstrating responsive layout, utility usage, and UI design skills.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group"> <a href="https://nandakishore695.github.io/Hivespace/" target="_blank"
-                                type="button" class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
-                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">View
-                                <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22" height="22"
-                                    class="bi" /></a> <a href="https://github.com/Nandakishore695/Hivespace"
-                                target="_blank" type="button"
-                                class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
-                                style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Code
-                                <img src="./images/code-slash.svg" alt="Code Logo" width="22" height="22"
-                                    class="bi" /></a>
+                        <h3 class="fw-bold">Hivespace Website</h3>
+                        <p class="card-text text-secondary">This project is a Bootstrap-based replica of a co-working
+                            space
+                            website, demonstrating responsive layout, utility usage, and UI design skills.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group"> <a href="https://nandakishore695.github.io/Hivespace/"
+                                    target="_blank" type="button"
+                                    class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                    style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">View
+                                    <img src="./images/box-arrow-up-right_logo.svg" alt="View Logo" width="22"
+                                        height="22" class="bi" /></a> <a
+                                    href="https://github.com/Nandakishore695/Hivespace" target="_blank" type="button"
+                                    class="btn btn-lg text-white mx-1 icon-link icon-link-hover"
+                                    style="background-color: #14A76C; border: #14A76C 1px solid; --bs-icon-link-transform: translate3d(0, -.125rem, 0)">Code
+                                    <img src="./images/code-slash.svg" alt="Code Logo" width="22" height="22"
+                                        class="bi" /></a>
+                            </div>
+                            <small class="badge text-bg-dark rounded-pill">Live</small>
                         </div>
-                        <small class="badge text-bg-dark rounded-pill">Live</small>
-                    </div>
+                </div>
             </div>
-        </div>
-        </div>
-        </div>
-        </div>
-    </section>
+            </div>
+            </div>
+            </div>
+        </section>
 
 
-    <section id="experience">
-        <div class="text-secondary px-4  ">
-            <div class="py-lg-5 py-5">
-                <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;"> Experience </span>
-                </h2>
+        <section id="experience">
+            <div class="text-secondary px-4  ">
+                <div class="py-lg-5 py-5">
+                    <h2 class="display-5 fw-bold text-black text-center"><span style="color: #14A76C;"> Experience
+                        </span>
+                    </h2>
 
-                <div class="col-md-8 mx-auto py-lg-5">
+                    <div class="col-md-8 mx-auto py-lg-5">
 
-                    <div class="row align-items-center g-lg-5 py-5">
-                        <div class="accordion px-0" id="accordionPanelsStayOpenExample">
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                        aria-controls="panelsStayOpen-collapseOne">
-                                        <div><strong class="d-block fw-bold fs-5">Frontend Developer | <span
-                                                    class="fw-bold fs-6"> Hivespace </span><a
-                                                    href="https://hivespace.in/" target="_blank" aria-label="hivespace navigation"><img
-                                                        src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
-                                                        srcset=""></a></strong>
-                                            <span> Kondapur, Telangana </span>
-                                            <small
-                                                class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">June
-                                                2024 - Present</small>
+                        <div class="row align-items-center g-lg-5 py-5">
+                            <div class="accordion px-0" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            <div><strong class="d-block fw-bold fs-5">Frontend Developer | <span
+                                                        class="fw-bold fs-6"> Hivespace </span><a
+                                                        href="https://hivespace.in/" target="_blank"
+                                                        aria-label="hivespace navigation"><img
+                                                            src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
+                                                            srcset=""></a></strong>
+                                                <span> Kondapur, Telangana </span>
+                                                <small
+                                                    class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">June
+                                                    2024 - Present</small>
+                                            </div>
+                                        </button>
+                                    </h3>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Developed and maintained multiple websites using
+                                                    <strong>WordPress</strong>, ensuring mobile responsiveness and
+                                                    performance.</li>
+                                                <li>Worked closely with <strong>graphic designers, SEO specialists, and
+                                                        the team leader</strong> to finalize and implement section
+                                                    designs aligned with project requirements.</li>
+                                                <li>Conducted cross-browser testing and optimized assets (image
+                                                    compression, caching), improving load times by <strong>30% faster
+                                                        load times.</strong></li>
+                                                <li>Optimized websites to achieve higher <strong>Google PageSpeed
+                                                        performance scores</strong>, improving SEO rankings and user
+                                                    experience.</li>
+                                            </ul>
                                         </div>
-                                    </button>
-                                </h3>
-                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                                    <div class="accordion-body">
-                                        <ul>
-                                            <li>Developed and maintained multiple websites using <strong>WordPress</strong>, ensuring mobile responsiveness and performance.</li>
-                                            <li>Worked closely with <strong>graphic designers, SEO specialists, and the team leader</strong> to finalize and implement section designs aligned with project requirements.</li>
-                                            <li>Conducted cross-browser testing and optimized assets (image compression, caching), improving load times by <strong>30% faster load times.</strong></li>
-                                            <li>Optimized websites to achieve higher <strong>Google PageSpeed performance scores</strong>, improving SEO rankings and user experience.</li>
-                                        </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                        aria-controls="panelsStayOpen-collapseTwo">
-                                        <div> <strong class="d-block fw-bold fs-5">Frontend Developer | <span
-                                                    class="fw-bold fs-6"> Yellowblock Software Solution </span><a
-                                                    href="https://yellowblock.net/" target="_blank" aria-label="yellowblock navigation"><img
-                                                        src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
-                                                        srcset=""></a></strong>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            <div> <strong class="d-block fw-bold fs-5">Frontend Developer | <span
+                                                        class="fw-bold fs-6"> Yellowblock Software Solution </span><a
+                                                        href="https://yellowblock.net/" target="_blank"
+                                                        aria-label="yellowblock navigation"><img
+                                                            src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
+                                                            srcset=""></a></strong>
 
-                                            <span> S.R Nagar, Telangana </span>
-                                            <small
-                                                class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">May
-                                                2022 – October 2023</small>
+                                                <span> S.R Nagar, Telangana </span>
+                                                <small
+                                                    class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">May
+                                                    2022 – October 2023</small>
+                                            </div>
+                                        </button>
+                                    </h3>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Developed a dynamic cryptocurrency web application using <strong>
+                                                        React.js, Redux, and React Router.</strong></li>
+                                                <li>Translated static HTML and Bootstrap designs into <strong>
+                                                        responsive</strong>, reusable React components.</li>
+                                                <li>Integrated <strong> RESTful APIs using Axios</strong> and optimized
+                                                    state management with Redux Toolkit.</li>
+                                                <li>Implemented <strong>code splitting and lazy loading to improve
+                                                        application performance</strong> and reduce initial load time.
+                                                </li>
+                                                <li>Collaborated with <strong>backend and design teams</strong> to
+                                                    ensure seamless API integration and user-friendly UI/UX.</li>
+                                                <li>Actively participated in weekly sprint planning, contributing to
+                                                    task estimation and feature delivery.</li>
+                                                <li>Regularly committed code to Git repositories and submitted
+                                                    <strong>pull requests</strong> for review by mentors and team leads,
+                                                    ensuring high-quality and maintainable code.</li>
+                                            </ul>
                                         </div>
-                                    </button>
-                                </h3>
-                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                                    <div class="accordion-body">
-                                        <ul>
-                                            <li>Developed a dynamic cryptocurrency web application using <strong> React.js, Redux, and React Router.</strong></li>
-                                            <li>Translated static HTML and Bootstrap designs into <strong> responsive</strong>, reusable React components.</li>
-                                            <li>Integrated <strong> RESTful APIs using Axios</strong> and optimized state management with Redux Toolkit.</li>
-                                            <li>Implemented <strong>code splitting and lazy loading to improve application performance</strong> and reduce initial load time.</li>
-                                            <li>Collaborated with <strong>backend and design teams</strong> to ensure seamless API integration and user-friendly UI/UX.</li>
-                                            <li>Actively participated in weekly sprint planning, contributing to task estimation and feature delivery.</li>
-                                            <li>Regularly committed code to Git repositories and submitted <strong>pull requests</strong> for review by mentors and team leads, ensuring high-quality and maintainable code.</li>
-                                        </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                        aria-controls="panelsStayOpen-collapseThree">
-                                        <div> <strong class="d-block fw-bold fs-5">SEO Internship | <span
-                                                    class="fw-bold fs-6"> Green Gold Animation </span><a
-                                                    href="https://www.greengold.tv/" target="_blank" aria-label="greengold navigation"><img
-                                                        src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
-                                                        srcset=""></a></strong>
-                                            <span> Karkhana, Telangana </span>
-                                            <small
-                                                class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">February
-                                                2021 - June 2021</small>
-                                        </div>
-                                    </button>
-                                </h3>
-                            </div>
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
                                             aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                            <div><strong class="d-block fw-bold fs-5">Sales Executive | <span
-                                                        class="fw-bold fs-6"> Karvy Stock Broking Ltd </span><a
-                                                        href="http://www.karvyonline.com/" target="_blank" aria-label="Karvy navigation"><img
+                                            <div> <strong class="d-block fw-bold fs-5">SEO Internship | <span
+                                                        class="fw-bold fs-6"> Green Gold Animation </span><a
+                                                        href="https://www.greengold.tv/" target="_blank"
+                                                        aria-label="greengold navigation"><img
                                                             src="./images/box-arrow-in-up-right__black_logo.svg" alt=""
                                                             srcset=""></a></strong>
-                                                <span> Nanakramguda, Telangana </span>
+                                                <span> Karkhana, Telangana </span>
                                                 <small
-                                                    class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">May
-                                                    2019 - December 2019</small>
+                                                    class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">February
+                                                    2021 - June 2021</small>
                                             </div>
                                         </button>
-                                </h2>
+                                    </h3>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <div>
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                <div><strong class="d-block fw-bold fs-5">Sales Executive | <span
+                                                            class="fw-bold fs-6"> Karvy Stock Broking Ltd </span><a
+                                                            href="http://www.karvyonline.com/" target="_blank"
+                                                            aria-label="Karvy navigation"><img
+                                                                src="./images/box-arrow-in-up-right__black_logo.svg"
+                                                                alt="" srcset=""></a></strong>
+                                                    <span> Nanakramguda, Telangana </span>
+                                                    <small
+                                                        class="badge bg-success-subtle border border-success-subtle text-black rounded-pill mt-2">May
+                                                        2019 - December 2019</small>
+                                                </div>
+                                            </button>
+                                            </h2>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="text-secondary px-4 text-center">
+                <div class="py-lg-5 pt-5">
+                    <h2 class="display-5 fw-bold text-black">Get In <span style="color: #14A76C;"> Touch </span></h2>
+                    <div class="col-lg-10  col-12 mx-auto">
+                        <p class="fs-5 mb-4">I'd love to hear from you! If you have any questions, comments or,<br>
+                            feedback, please use the form below.</p>
+                        <div class="row align-items-center g-lg-5 py-5">
+                            <div class="col-md-6 text-center text-lg-start">
+                                <img src="./images/customer-support.avif" class="card-img-top" alt="Contact Me" />
+                            </div>
+                            <div class="col-md-6 mx-auto col-lg-5">
+                                <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary align-items-center">
+                                    <div class="form-floating mb-3"> <input type="text"
+                                            class="form-control custom-input" id="nameInput" placeholder="Your Name"
+                                            autocomplete="off" required>
+                                        <label for="nameInput">Your Name</label>
+                                    </div>
+                                    <div class="form-floating mb-3"> <input type="email"
+                                            class="form-control custom-input" id="emialInput"
+                                            placeholder="Email address" autocomplete="off" required> <label
+                                            for="emialInput">Email address</label>
+                                    </div>
+                                    <div class="form-floating mb-3"> <input type="number"
+                                            class="form-control custom-input" id="numberInput"
+                                            placeholder="Phone Number" autocomplete="off" min="1" max="10" required>
+                                        <label for="numberInput">Phone Number</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control custom-input" placeholder="Leave a message here"
+                                            id="messageInput" autocomplete="off" style="height: 100px"
+                                            required></textarea>
+                                        <label for="messageInput">Leave a message here</label>
+                                    </div>
+                                    <button class="btn btn-lg text-white icon-link icon-link-hover"
+                                        style="background: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+                                        type="submit">Submit Now <img src="./images/box-arrow-up-right_logo.svg"
+                                            alt="Submit Logo" width="22" height="22" class="bi" /></button>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-    </section>
+        </section>
 
 
-    <section id="contact">
-        <div class="text-secondary px-4 text-center">
-            <div class="py-lg-5 pt-5">
-                <h2 class="display-5 fw-bold text-black">Get In <span style="color: #14A76C;"> Touch </span></h2>
-                <div class="col-lg-10  col-12 mx-auto">
-                    <p class="fs-5 mb-4">I'd love to hear from you! If you have any questions, comments or,<br>
-                        feedback, please use the form below.</p>
-                    <div class="row align-items-center g-lg-5 py-5">
-                        <div class="col-md-6 text-center text-lg-start">
-                            <img src="./images/customer-support.avif" class="card-img-top" alt="Contact Me" />
-                        </div>
-                        <div class="col-md-6 mx-auto col-lg-5">
-                            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary align-items-center">
-                                <div class="form-floating mb-3"> <input type="text" class="form-control custom-input"
-                                        id="nameInput" placeholder="Your Name" autocomplete="off" required>
-                                    <label for="nameInput">Your Name</label>
-                                </div>
-                                <div class="form-floating mb-3"> <input type="email" class="form-control custom-input"
-                                        id="emialInput" placeholder="Email address" autocomplete="off" required> <label
-                                        for="emialInput">Email address</label>
-                                </div>
-                                <div class="form-floating mb-3"> <input type="number" class="form-control custom-input"
-                                        id="numberInput" placeholder="Phone Number" autocomplete="off" min="1" max="10"
-                                        required> <label for="numberInput">Phone Number</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <textarea class="form-control custom-input" placeholder="Leave a message here"
-                                        id="messageInput" autocomplete="off" style="height: 100px" required></textarea>
-                                    <label for="messageInput">Leave a message here</label>
-                                </div>
-                                <button class="btn btn-lg text-white icon-link icon-link-hover"
-                                    style="background: #14A76C; --bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-                                    type="submit">Submit Now <img src="./images/box-arrow-up-right_logo.svg"
-                                        alt="Submit Logo" width="22" height="22" class="bi" /></button>
-                            </form>
-                        </div>
+        <section class="container col-xxl-8 px-4 py-lg-5 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 rounded-4 px-lg-4 shadow-lg "
+                style="background-color: #14A76C;">
+                <div class="col-12 col-sm-8 col-lg-6 mb-lg-5"> <img src="./images/snap_website_fork.avif"
+                        alt="Snap Image" class="d-block mx-lg-auto img-fluid rounded-4" alt="Bootstrap Themes"
+                        width="700" height="500" loading="lazy"> </div>
+                <div class="col-lg-6 mb-5">
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Loved this <span
+                            class="text-white">portfolio?</span></h3>
+                    <p class="lead fw-bold fs-5">Make this <span class="text-white">yours</span> by forking.</p>
+                    <p class="lead text-white fs-5 ">Fork this template on GitHub start building your own portfolio
+                        website.
+                    </p>
+                    <div class="d-lg-grid gap-2 d-lg-flex justify-content-lg-start ">
+                        <a href="https://github.com/Nandakishore695/portfolio_green_black/" target="_blank"
+                            style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+                            class="btn bg-light btn-lg text-black icon-link icon-link-hover" type="submit"><img
+                                src="./images/github_logo.svg" alt="Github Logo" width="22" height="22" class="bi" />
+                            Fork
+                            Now</a>
+                        <a href="https://github.com/Nandakishore695/portfolio_green_black#readme" target="_blank"
+                            style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
+                            class="btn  btn-lg px-4 border-1 border-white text-white icon-link icon-link-hover"
+                            style="border: #14A76C solid 1px;">Visit Repo <img
+                                src="./images/box-arrow-up-right_logo.svg" alt="Navigate Repo Logo" width="22"
+                                height="22" class="bi" /></a>
+
                     </div>
                 </div>
             </div>
-    </section>
+        </section>
 
 
-    <section class="container col-xxl-8 px-4 py-lg-5 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 rounded-4 px-lg-4 shadow-lg "
-            style="background-color: #14A76C;">
-            <div class="col-12 col-sm-8 col-lg-6 mb-lg-5"> <img src="./images/snap_website_fork.avif" alt="Snap Image"
-                    class="d-block mx-lg-auto img-fluid rounded-4" alt="Bootstrap Themes" width="700" height="500"
-                    loading="lazy"> </div>
-            <div class="col-lg-6 mb-5">
-                <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Loved this <span
-                        class="text-white">portfolio?</span></h3>
-                <p class="lead fw-bold fs-5">Make this <span class="text-white">yours</span> by forking.</p>
-                <p class="lead text-white fs-5 ">Fork this template on GitHub start building your own portfolio website.
-                </p>
-                <div class="d-lg-grid gap-2 d-lg-flex justify-content-lg-start ">
-                    <a href="https://github.com/Nandakishore695/portfolio_green_black/" target="_blank"
-                        style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-                        class="btn bg-light btn-lg text-black icon-link icon-link-hover" type="submit"><img
-                            src="./images/github_logo.svg" alt="Github Logo" width="22" height="22" class="bi" /> Fork
-                        Now</a>
-                    <a href="https://github.com/Nandakishore695/portfolio_green_black#readme" target="_blank"
-                        style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"
-                        class="btn  btn-lg px-4 border-1 border-white text-white icon-link icon-link-hover"
-                        style="border: #14A76C solid 1px;">Visit Repo <img src="./images/box-arrow-up-right_logo.svg"
-                            alt="Navigate Repo Logo" width="22" height="22" class="bi" /></a>
-
+        <footer class="container-fluid bg-dark text-white px-4 px-lg-4 pt-5">
+            <div class="row px-md-5">
+                <div class="col-md-6 col-md-6 mb-3 px-md-5">
+                    <h2 class="fs-5">Nandakishore Portfolio</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <p>Keep Rising 🚀. Connect with me over whatsapp chat!</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 mb-3 px-md-5">
+                    <h2 class="fs-5">Contact Info</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="tel:7893797371" target="_blank"
+                                class="nav-link p-0 text-white"><span><img
+                                        src="./images/telephone-forward-fill_logo.svg" alt="Phone Logo" /></span> +91
+                                78937-97371</a></li>
+                        <li class="nav-item mb-2"><a href="mailto:nandakishore695@gmail.com" target="_blank"
+                                class="nav-link p-0 text-white"><span><img src="./images/email_logo.svg"
+                                        alt="Email Logo" /></span>
+                                nandakishore695@gmail.com</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><span><img
+                                        src="./images/geo-alt.svg" alt="Location Logo" /></span> Hyderabad, Telangana,
+                                India-500006.</a></li>
+                        <li class="nav-item mb-2">
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-    <footer class="container-fluid bg-dark text-white px-4 px-lg-4 pt-5">
-        <div class="row px-md-5">
-            <div class="col-md-6 col-md-6 mb-3 px-md-5">
-                <h2 class="fs-5">Nandakishore Portfolio</h2>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2">
-                        <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <p>Keep Rising 🚀. Connect with me over whatsapp chat!</p>
-                    </li>
-                </ul>
+            <div class="d-flex flex-column flex-sm-row justify-content-center py-4  border-top">
+                <p>Designed with Love by Vishwanath Nandakishore</p>
             </div>
-            <div class="col-12 col-md-6 mb-3 px-md-5">
-                <h2 class="fs-5">Contact Info</h2>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="tel:7893797371" target="_blank"
-                            class="nav-link p-0 text-white"><span><img src="./images/telephone-forward-fill_logo.svg"
-                                    alt="Phone Logo" /></span> +91
-                            78937-97371</a></li>
-                    <li class="nav-item mb-2"><a href="mailto:nandakishore695@gmail.com" target="_blank"
-                            class="nav-link p-0 text-white"><span><img src="./images/email_logo.svg"
-                                    alt="Email Logo" /></span>
-                            nandakishore695@gmail.com</a>
-                    </li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><span><img
-                                    src="./images/geo-alt.svg" alt="Location Logo" /></span> Hyderabad, Telangana,
-                            India-500006.</a></li>
-                    <li class="nav-item mb-2">
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="d-flex flex-column flex-sm-row justify-content-center py-4  border-top">
-            <p>Designed with Love by Vishwanath Nandakishore</p>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- whatsapp section -->
-    <span class="fixed-bottom py-lg-3 px-lg-3 py-2 ">
-        <span class="ms-3">
-            <a class="link-body-emphasis text-decoration-none"
-                href="https://wa.me/+917893797371?abid=username&text=Hi Nandakishore! I’d like to know more about you."
-                target="_blank" aria-label="whatsapp_logo">
-                <img src="./images/whatsapp_logo.svg" alt="Whatsapp Logo" width="50" height="50" />
+        <!-- whatsapp section -->
+        <span class="fixed-bottom py-lg-3 px-lg-3 py-2 ">
+            <span class="ms-3">
+                <a class="link-body-emphasis text-decoration-none"
+                    href="https://wa.me/+917893797371?abid=username&text=Hi Nandakishore! I’d like to know more about you."
+                    target="_blank" aria-label="whatsapp_logo">
+                    <img src="./images/whatsapp_logo.svg" alt="Whatsapp Logo" width="50" height="50" />
+            </span>
         </span>
-    </span>
+    </main>
     <script rel="preload" src="./assets/js/bootstrap.bundle.min.js"></script>
     <script rel="preload" src="./assets/js/index.js"></script>
 </body>
