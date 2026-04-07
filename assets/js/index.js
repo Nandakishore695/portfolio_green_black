@@ -20,3 +20,18 @@ function scrollToOptions(id) {
     }
   }, 200); // print every 500ms
 })();
+
+let mybtn = document.getElementById("btn-back-to-top");
+
+window.onscroll = function () {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybtn.style.display = "block";
+  } else {
+    mybtn.style.display = "none";
+  }
+  mybtn.addEventListener("click", function () {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Smooth scroll to top
+  });
+};
